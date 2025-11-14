@@ -1,0 +1,59 @@
+# =====================================
+#   UNIVERSAL .gitignore for Java
+#   Works on Linux + Windows
+# =====================================
+
+# -------- Java --------
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# -------- Maven --------
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# -------- Gradle --------
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# -------- IntelliJ IDEA --------
+.idea/
+*.iml
+out/
+
+# -------- Eclipse --------
+.project
+.classpath
+.settings/
+
+# -------- VS Code --------
+.vscode/
+
+# -------- Logs --------
+*.log
+
+# -------- OS Specific --------
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux temporary
+*~
+
+# macOS (на всяк випадок, якщо колись скопіюєш)
+.DS_Store
+
+# -------- Temporary / Backup files --------
+*.tmp
+*.bak
+*.swp
+*.swo
