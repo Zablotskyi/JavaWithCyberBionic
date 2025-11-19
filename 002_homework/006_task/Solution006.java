@@ -30,8 +30,7 @@ public class Solution006 {
 
         String line = "" +
                 d1 + d2 + d3 + d4 + d5 + d6 + d7 + d8 + d9 + comma + space +
-                v1 + v2 + v3 + v4 + v5 + v6 +
-                ex;
+                v1 + v2 + v3 + v4 + v5 + v6 + ex;
 
         System.out.println(line);
     }
