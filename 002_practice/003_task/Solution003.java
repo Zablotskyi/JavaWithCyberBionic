@@ -1,3 +1,4 @@
+//Begin3◦. Дано сторони прямокутника a і b. Знайти його площу S = a-b і периметр P = 2*(a + b).
 public class Solution003 {
     public static void main(String[] args) {
         int sideA = 5;
