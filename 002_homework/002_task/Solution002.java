@@ -10,6 +10,6 @@ public class Solution002 {
 
     public static void main(String[] args) {
         System.out.println(PI);
-        System.out.printf(E.toPlainString());
+        System.out.println(E.toPlainString());
     }
 }
