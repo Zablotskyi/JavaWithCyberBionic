@@ -16,7 +16,7 @@ public class Calculator {
     }
 
     public static void calculate (int a, int b, int c) {
-        double result = (a + b + c) / 3;
+        double result = (double) (a + b + c) / 3;
 
         System.out.println("Прийнято три числа: " + a + ", " + b + ", " + c + " \n\nСереднє аривметичне цих чисел: " + result);
     }
