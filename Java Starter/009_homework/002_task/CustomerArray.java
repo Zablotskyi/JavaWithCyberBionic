@@ -6,7 +6,7 @@ import java.util.Scanner;
 //Використовуючи IntelliJ IDEA, створіть клас CustomerArray. Створити масив розміру N-елементів, заповнити його
 // довільними цілими значеннями (розмір масиву задає користувач). Вивести на екран: найбільше значення масиву, найменше
 // значення масиву, загальну суму всіх елементів, середнє арифметичне всіх елементів, вивести всі непарні значення.
-public class ReverseArray {
+public class CustomerArray {
     static int[] array = null;
     static Random random = new Random();
 
