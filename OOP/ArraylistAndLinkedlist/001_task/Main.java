@@ -22,43 +22,39 @@ public class Main {
         listComputers.add(secondComputer);
         listComputers.add(thirdComputer);
 
-        Arrays.sort(listComputers);   // ClassCastException
+//        Arrays.sort(listComputers);   // ClassCastException
         for (Computer temp : listComputers) {
             System.out.println(temp);
         }
 
-        Arrays.sort(listComputers, new Comparator<Car>() {
-            @Override
-            public int compare(Car o1, Car o2) {
-                return o1.price - o2.price;
-            }
-        });
-        for (Car temp : c) {
-            System.out.println(temp);
-        }
-        System.out.println();
-
-        Arrays.sort(c, new Comparator<Car>() {
-            public int compare(Car o1, Car o2) {
-                return o1.speed - o2.speed;
-            }
-        });
-        for (Car temp : c) {
-            System.out.println(temp);
-        }
-        System.out.println();
-
-        Arrays.sort(c, new Comparator<Car>() {
-            public int compare(Car o1, Car o2) {
-                return o1.color.compareTo(o2.color);
-            }
-        });
-        for (Car temp : c) {
-            System.out.println(temp);
-        }
-    }
-}
-
-
+//        Arrays.sort(listComputers, new Comparator<Computer>() {
+//            @Override
+//            public int compare(Computer o1, Computer o2) {
+//                return o1.price - o2.price;
+//            }
+//        });
+//        for (Computer temp : c) {
+//            System.out.println(temp);
+//        }
+//        System.out.println();
+//
+//        Arrays.sort(c, new Comparator<Computer>() {
+//            public int compare(Computer o1, Computer o2) {
+//                return o1.speed - o2.speed;
+//            }
+//        });
+//        for (Computer temp : c) {
+//            System.out.println(temp);
+//        }
+//        System.out.println();
+//
+//        Arrays.sort(c, new Comparator<Car>() {
+//            public int compare(Car o1, Car o2) {
+//                return o1.color.compareTo(o2.color);
+//            }
+//        });
+//        for (Car temp : c) {
+//            System.out.println(temp);
+//        }
     }
 }
